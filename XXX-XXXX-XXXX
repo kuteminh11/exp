@@ -1,12 +1,9 @@
 PBboard Multiple SQL Injection
 
 Affected version: Version 3.0.1 (updated on 02/09/2015) and before.
-
 ============
 Link 1
 ============
-
-
 Vulnerable function is "ip_adr" (defined in \engine\Engine.class.php)
 
          function get_IP_address()
@@ -68,7 +65,6 @@ Connection: keep-alive
 ============
 Link 2
 ============
-
 
 POC:
 
